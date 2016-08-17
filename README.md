@@ -13,9 +13,7 @@ npm install vue-pikaday
 >import vPikaday from './vue-pikaday'
 >Vue.use(vPikaday)
 >```
-
-
-
+--
 > Set some VM data to bind
 > ```js
 >  new Vue({
@@ -24,7 +22,7 @@ npm install vue-pikaday
 >    }
 > })
 > ```
-
+--
 > Create the datepicker
 > ```html
 > <input type="text" v-date="date">
