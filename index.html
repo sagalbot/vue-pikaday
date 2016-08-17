@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>vue-pikaday | a vue.js datepicker</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .jumbotron {
+      background: none;
+    }
+
+    h1 small {
+      display: block;
+      margin-top: .25em;
+    }
+
+    pre.form-control {
+      background: #dbdbdb;
+      border: none;
+    }
+
+    .row {
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+<div id="app" class="container">
+  <div class="jumbotron">
+    <h1 class="text-center">Vue Pikaday</h1>
+    <p class="text-center">A lightweight Vue.js directive wrapper over dbushell/Pikaday.</p>
+
+    <div class="row">
+      <div class="col-md-3 col-md-offset-3">
+        <h4>Input</h4>
+        <input placeholder="Choose a date..." type="text" v-date="date" class="form-control">
+      </div>
+      <div class="col-md-3">
+        <h4>VM Data</h4>
+        <pre class="form-control">{ "date": {{ date | json }} }</pre>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="dist/build.js"></script>
+</body>
+</html>
