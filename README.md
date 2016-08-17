@@ -1,6 +1,6 @@
 # vue-pikaday
 
-> A lightweight Vue.js directive wrapper over dbushell/Pikaday.
+A lightweight Vue.js directive wrapper over [dbushell/Pikaday](https://github.com/dbushell/Pikaday).
 
 ### Install
 ```
