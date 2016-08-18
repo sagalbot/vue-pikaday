@@ -2,6 +2,8 @@
 
 A lightweight Vue.js directive wrapper over [dbushell/Pikaday](https://github.com/dbushell/Pikaday).
 
+**[Live Demo](https://sagalbot.github.io/vue-pikaday) / [JS Bin](http://jsbin.com/ziwido/edit?html,js,output)**
+
 ## Install
 >Install the library from NPM
 >```
