@@ -14,9 +14,20 @@
       background: none;
     }
 
-    h1 small {
-      display: block;
-      margin-top: .25em;
+    .jumbotron h1 {
+      color: #4fc08d;
+    }
+
+    p,h4,a {
+      color: #b3b3b3;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #4fc08d;
     }
 
     pre.form-control {
@@ -27,13 +38,25 @@
     .row {
       margin-top: 3em;
     }
+
+    .btn-outline {
+      text-decoration: none;
+      background: none;
+      border: 3px solid #4fc08d;
+      color: #4fc08d;
+    }
+
+    .btn-outline:hover {
+      color: #fff;
+      background: #4fc08d;
+    }
   </style>
 </head>
 <body>
 <div id="app" class="container">
   <div class="jumbotron">
     <h1 class="text-center">Vue Pikaday</h1>
-    <p class="text-center">A lightweight Vue.js directive wrapper over dbushell/Pikaday.</p>
+    <p class="text-center">A lightweight Vue.js directive wrapper over <a href="dbushell/Pikaday">dbushell/Pikaday</a>.</p>
 
     <div class="row">
       <div class="col-md-3 col-md-offset-3">
@@ -45,8 +68,12 @@
         <pre class="form-control">{ "date": {{ date | json }} }</pre>
       </div>
     </div>
+
+    <div class="row text-center">
+      <a href="https://github.com/sagalbot/vue-pikaday" class="btn btn-lg btn-outline">View on GitHub</a>
+    </div>
   </div>
 </div>
-<script src="dist/build.js"></script>
+<script src="dist/build.js"></script>s
 </body>
 </html>
