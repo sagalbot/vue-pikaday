@@ -1,5 +1,9 @@
 .DS_Store
 node_modules/
-dist/
 npm-debug.log
 .idea/
+.babelrc
+package.json
+webpack.config.js
+README.md
+src/
