@@ -13,7 +13,6 @@ A lightweight Vue.js directive wrapper over [dbushell/Pikaday](https://github.co
 ## Usage
 >Install the directive
 >```js
-># in your JS
 >import vPikaday from 'vue-pikaday'
 >Vue.use(vPikaday)
 >```
