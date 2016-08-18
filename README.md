@@ -2,15 +2,17 @@
 
 A lightweight Vue.js directive wrapper over [dbushell/Pikaday](https://github.com/dbushell/Pikaday).
 
-### Install
-```
-npm install vue-pikaday
-```
+## Install
+>Install the library from NPM
+>```
+>npm install vue-pikaday
+>```
 
-### Usage
+## Usage
 >Install the directive
 >```js
->import vPikaday from './vue-pikaday'
+># in your JS
+>import vPikaday from 'vue-pikaday'
 >Vue.use(vPikaday)
 >```
 --
@@ -28,6 +30,9 @@ npm install vue-pikaday
 > <input type="text" v-date="date">
 > ```
 
+## Styling
+
+The directive does not include any styling by default. You can grab base [css](https://raw.githubusercontent.com/dbushell/Pikaday/master/css/pikaday.css) & [scss](https://raw.githubusercontent.com/dbushell/Pikaday/master/scss/pikaday.scss) from the Pikaday repository.
 
 ## Build Setup
 

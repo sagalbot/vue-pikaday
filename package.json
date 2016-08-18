@@ -2,14 +2,15 @@
   "name": "vue-pikaday",
   "description": "A lightweight Vue.js directive wrapper over dbushell/Pikaday.",
   "author": "Jeff Sagal <sagalbot@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "bundle": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.bundle.js"
   },
+  "main": "dist/vue-pikaday.js",
   "dependencies": {
     "babel-runtime": "^6.0.0",
-    "moment": "^2.14.1",
     "pikaday": "^1.4.0",
     "vue": "^1.0.0"
   },

@@ -2,15 +2,9 @@ let Pikaday = typeof require === 'function'
     ? require('Pikaday')
     : window.Pikaday
 
-var moment = typeof require === 'function'
-    ? require('moment')
-    : window.moment
-
 if (!Pikaday) {
   throw new Error('[vue-pikaday] cannot locate the Pikaday library.')
 }
-
-let usingMoment = moment ? true : false;
 
 const vPikaday = {
   // exposed global options
